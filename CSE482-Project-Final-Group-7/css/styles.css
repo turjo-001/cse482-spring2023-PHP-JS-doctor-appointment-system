@@ -1,0 +1,91 @@
+.banner-img-2 {
+    background-image: url("../images/banner2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+
+.banner-img-3 {
+    background-image: url("../images/banner3.jpg");
+    height: 50vh;
+}
+
+/* numaer start */
+
+.bg-purple {
+    background-color: purple;
+}
+
+.text-purple {
+    color: purple;
+}
+/* numaer end */
+
+
+/* Baktiyar start*/
+.text-purple {
+    color: rgba(105, 9, 105, 0.864);
+}
+
+.disable-li-style {
+    list-style: none;
+}
+
+.btn-disable {
+    pointer-events: none;
+}
+
+/* New css start */
+.border-rounded-blue{
+    border-radius: 50%;
+    border-color:#7fffd4 ;
+    border-style: solid;
+}
+
+.btn-custom {
+    border-radius: 3px ;
+    border-color: white;
+    background-color: blueviolet;
+    color: white;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.btn-purple:hover {
+    background-color: grey;
+    color: white;
+}
+
+.btn-purple {
+    background-color: purple;
+    color: white;
+}
+
+/* New css end */
+
+/* Baktiyar End */
+
+
+/*Shozol-Register Starts*/
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #d1c9c9;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom right, rgb(161, 152, 227), rgb(22, 36, 185));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to bottom right, rgb(161, 152, 227), rgb(22, 36, 185));
+}
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+}
+
+.card-registration .select-arrow {
+    top: 13px;
+}
+/*Shozol-Register Ends*/
